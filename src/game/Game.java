@@ -24,6 +24,7 @@ public class Game extends Canvas implements Runnable {
     public int tickCount = 0;
     public boolean running = false;
 
+    // Creating Image
     private BufferedImage image = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);
     private int[] pixels = ((DataBufferInt) image.getRaster().getDataBuffer()).getData();
 
